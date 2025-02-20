@@ -50,5 +50,5 @@ def test_parse_user_data_invalid():
 
 def test_get_title():
     # Uji dengan URL yang sudah dikenal
-    title = get_title("https://www.example.com")
-    assert "Example Domain" in title
+    title = get_title("https://www.umkt.ac.id")
+    assert "Universitas Muhammadiyah Kalimantan Timur" in title
